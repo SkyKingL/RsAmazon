@@ -41,3 +41,8 @@ We found that the sampling processes for top-ranked unobserved items are unneces
 - The target teacher models and their trajectories need to be located in Teachers directory.
 - Due to its large size, we provide pretrained teacher trajectories through another file-sharing system: https://drive.google.com/file/d/1IYNJBbhzi2ETcKzruYOKFsJ__3RwyPJM/view?usp=share_link
 
+
+### 4. Follow-up study
+Thank you for your attention to our work. We would like to introduce our follow-up study, "Continual Collaborative Distillation for Recommender System," presented at KDD '24. In this study, we investigated a systematic approach to applying HetComp to real-world data streams, where new users, items, and interactions are continuously added.
+
+For more details, please refer to the following links:  <a href="https://arxiv.org/pdf/2405.19046">pdf</a> / <a href="https://github.com/Gyu-Seok0/CCD_KDD24">code</a>
