@@ -6,7 +6,6 @@
 conda create -n rsamazon python=3.6.10
 ```
 
-
 下载对应版本torch的whl文件：https://download.pytorch.org/whl/cu113/torch-1.10.1%2Bcu113-cp36-cp36m-linux_x86_64.whl
 
 再执行pytorch环境安装:
