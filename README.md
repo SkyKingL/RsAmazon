@@ -1,21 +1,21 @@
-## BUPT CS 研一 24 秋季推荐系统课程作业
+# BUPT CS 研一 24 秋季推荐系统课程作业
 - Python version: 3.6.10
 - Pytorch version: 1.10.1
 ```
-# Env
+## Env
 conda create -n rsamazon python=3.6.10
 ```
 ```
 conda activate rsamazon
 ```
 
-- 下载对应版本的torch文件：https://download.pytorch.org/whl/cu113/torch-1.10.1%2Bcu113-cp36-cp36m-linux_x86_64.whl
+下载对应版本的torch文件：https://download.pytorch.org/whl/cu113/torch-1.10.1%2Bcu113-cp36-cp36m-linux_x86_64.whl
 ```
 pip install torch-1.10.1+cu113-cp36-cp36m-linux_x86_64.whl
 ```
-- 其余环境比如numpy,tqdm,就遇到情况了再安装就可以啦
+其余环境比如numpy,tqdm,就遇到情况了再安装就可以啦
 
-# Dataset
+## Dataset
 在下面链接中下载好5-score的文件并解压：
 http://jmcauley.ucsd.edu/data/amazon/
 
@@ -23,9 +23,9 @@ http://jmcauley.ucsd.edu/data/amazon/
 ```
 python json2csv.py
 ```
-- 得到对应数据集的csv文件
+得到对应数据集的csv文件
 
-- main.py代码中需要将csv文件的路径替换为对应的路径。再执行：
+main.py代码中需要将csv文件的路径替换为对应的路径。再执行：
 ```
 python main.py
 ```
