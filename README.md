@@ -1,8 +1,10 @@
 # BUPT CS 研一 24 秋季推荐系统课程作业
+
+
+# Env
 - Python version: 3.6.10
 - Pytorch version: 1.10.1
 ```
-## Env
 conda create -n rsamazon python=3.6.10
 ```
 
