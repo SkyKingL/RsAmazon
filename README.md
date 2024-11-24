@@ -2,6 +2,7 @@
 - Python version: 3.6.10
 - Pytorch version: 1.10.1
 ```
+# Env
 conda create -n rsamazon python=3.6.10
 ```
 ```
@@ -14,7 +15,11 @@ pip install torch-1.10.1+cu113-cp36-cp36m-linux_x86_64.whl
 ```
 - 其余环境比如numpy,tqdm,就遇到情况了再安装就可以啦
 
-- 在http://jmcauley.ucsd.edu/data/amazon/中下载好5-score的文件并解压后,执行：
+# Dataset
+在下面链接中下载好5-score的文件并解压：
+http://jmcauley.ucsd.edu/data/amazon/
+
+然后执行
 ```
 python json2csv.py
 ```
