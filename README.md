@@ -1,10 +1,12 @@
 # BUPT CS 研一 24 秋季推荐系统课程作业
-# Amazon数据集的TopK推荐任务
 
-## 评分预测任务
+## Amazon评分预测任务
 https://github.com/SkyKingL/RsAmazonPredict
 
-## Env
+## Amazon数据集的TopK推荐任务
+本项目
+
+### Env
 - Python version: 3.6.10
 - Pytorch version: 1.10.1
 ```
@@ -22,7 +24,7 @@ pip install torch-1.10.1+cu113-cp36-cp36m-linux_x86_64.whl
 ```
 其余环境比如numpy,tqdm,就遇到情况了再安装就可以啦
 
-## Dataset
+### Dataset
 在下面链接中下载好5-score的文件并解压：
 http://jmcauley.ucsd.edu/data/amazon/
 
