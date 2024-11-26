@@ -1,6 +1,6 @@
 # BUPT CS 研一 24 秋季推荐系统课程作业
 
-## Amazon评分预测任务
+## Amazon数据集评分预测任务
 https://github.com/SkyKingL/RsAmazonPredict
 
 ## Amazon数据集的TopK推荐任务
