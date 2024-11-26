@@ -1,5 +1,8 @@
 # BUPT CS 研一 24 秋季推荐系统课程作业
+# 2. Amazon数据集的TopK推荐任务
 
+## 评分预测任务
+https://github.com/SkyKingL/RsAmazonPredict
 
 ## Env
 - Python version: 3.6.10
