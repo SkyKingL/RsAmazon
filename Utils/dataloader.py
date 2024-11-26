@@ -110,13 +110,13 @@ def load_data(file_path='reviews_Digital_Music_5.csv', test_ratio=0.2, random_se
     # 获取用户和物品的交互次数统计
     u_count_dict, i_count_dict = get_count_dict(total_int_tmp)
     
-    # 过滤交互数据（用户至少5次交互，物品不过滤）
+    # 过滤交互数据（count_filtering=[0, 0],用户至少0次交互，物品至少0次交互）
     u_count, i_count, total_ints = get_total_ints(
         total_int_tmp, 
         u_count_dict, 
         i_count_dict, 
         is_implicit=False,  # 保留原始评分
-        count_filtering=[5, 0]  # 用户至少5次交互，物品不过滤
+        count_filtering=[0, 0]  # 用户,物品不过滤
     )
     
     # 转换为字典格式
