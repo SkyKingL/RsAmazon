@@ -135,7 +135,7 @@ def load_data(file_path='reviews_Digital_Music_5.csv', test_ratio=0.2, random_se
         train_items = items[num_test_items*2:]
 
         for item in test_items:
-            dict_set(test_mat, user, item, total_mat[user][item])  # 保留原始评分
+            dict_set(test_mat, user, item, total_mat[user][item]) 
 
         for item in valid_items:
             dict_set(valid_mat, user, item, total_mat[user][item])
