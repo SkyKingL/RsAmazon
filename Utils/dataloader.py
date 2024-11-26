@@ -115,7 +115,7 @@ def load_data(file_path='reviews_Digital_Music_5.csv', test_ratio=0.2, random_se
         total_int_tmp, 
         u_count_dict, 
         i_count_dict, 
-        is_implicit=False,  # 保留原始评分
+        is_implicit=True,  # 隐式反馈
         count_filtering=[0, 0]  # 用户,物品不过滤
     )
     
